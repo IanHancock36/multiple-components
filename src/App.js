@@ -5,6 +5,8 @@ import Rando from './Rando'
 import Button from './Button'
 import BrokenClick from './BrokenClick'
 import './App.css';
+import ScoreKeeper from './ScoreKeeper';
+import IconList from './IconList';
 
 
 class App extends Component{
@@ -12,7 +14,7 @@ class App extends Component{
     return(
       <div className ="App">
       
-      <BrokenClick/> 
+      <IconList/> 
       </div>
       ); 
   }
