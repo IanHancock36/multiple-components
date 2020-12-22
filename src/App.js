@@ -7,14 +7,16 @@ import BrokenClick from './BrokenClick'
 import './App.css';
 import ScoreKeeper from './ScoreKeeper';
 import IconList from './IconList';
-
+import AnnoyingForm from "./AnnoyingForm"
+import DontCopyMe from './DontCopyMe'
 
 class App extends Component{
   render(){ 
     return(
       <div className ="App">
       
-      <IconList/> 
+    <AnnoyingForm /> 
+      <DontCopyMe /> 
       </div>
       ); 
   }
