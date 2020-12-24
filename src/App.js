@@ -9,14 +9,14 @@ import ScoreKeeper from './ScoreKeeper';
 import IconList from './IconList';
 import AnnoyingForm from "./AnnoyingForm"
 import DontCopyMe from './DontCopyMe'
+import Form from './Form'
 
 class App extends Component{
   render(){ 
     return(
       <div className ="App">
       
-    <AnnoyingForm /> 
-      <DontCopyMe /> 
+   <Form /> 
       </div>
       ); 
   }
