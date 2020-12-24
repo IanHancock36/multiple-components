@@ -29,8 +29,10 @@ this.setState({username: '' });
             <div>
                 <h1> Form Demo </h1>
                 <form onSubmit = {this.handleSubmit}>
+                    <label htmlFor = 'username'>Username</label>
                     <input type = 'text' value = {this.state.username}
-                     onChange = {this.handleChange} /> 
+                        onChange = {this.handleChange}
+                        id='username' /> 
                      <button>Submit </button>
                 </form>
             </div>
